@@ -1,6 +1,7 @@
 """ Script that runs through validated manual screenshots in Airtable and uploads them to S3. """
 
 import os
+import re
 import sys
 
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
@@ -76,6 +77,8 @@ def make_local_path(record_fields, args):
     # suffix (from description), like "vaccine-tab"
     description = record_fields.get('Description (optional)')
     if description:
+        # replace non-alphanumeric characters with spaces
+        suffix = re.sub('[^0-9a-zA-Z]+', ' ', description)
         suffix = '-'.join(description.lower().split(' '))
     else:
         suffix = ''
@@ -171,8 +174,20 @@ def main(args_list=None):
     validated_records = get_validated_records(args)
     logger.info('Done: %d validated records' % len(validated_records))
 
+    failed_records = []
     for record in validated_records:
-        process_record(record, s3, args)
+        try:
+            process_record(record, s3, args)
+        except Exception:
+            failed_records.append(record)
+
+    if failed_records and slack_notifier:
+        slack_response = slack_notifier.notify_slack(
+            "Errored S3 upload of %d manual screenshots: check descriptions?" % len(failed_records))
+        thread_ts = slack_response.get('ts')
+        for record in records:
+            # log to Slack that something went wrong
+            slack_notifier.notify_slack(record, thread_ts=thread_ts)
 
 
 if __name__ == "__main__":
