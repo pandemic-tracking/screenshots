@@ -1,0 +1,5 @@
+state: WORLD
+
+links:
+- name: omicron_tracker
+  url: https://newsnodes.com/nu_tracker
