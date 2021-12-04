@@ -78,7 +78,7 @@ def make_local_path(record_fields, args):
     description = record_fields.get('Description (optional)')
     if description:
         # replace non-alphanumeric characters with spaces
-        suffix = re.sub('[^0-9a-zA-Z]+', ' ', description)
+        description = re.sub('[^0-9a-zA-Z]+', ' ', description)
         suffix = '-'.join(description.lower().split(' '))
     else:
         suffix = ''
