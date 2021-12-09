@@ -2,7 +2,67 @@ state: GA
 
 links:
 - name: primary
-  url: https://dph.georgia.gov/document/document/covid-19-among-fully-vaccinated-people-graphic/download
-  file: pdf
-  message: downloading pdf
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
 
+- name: summary
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#summary
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
+
+- name: demographics
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#demographics
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
+
+- name: days-to-breakthrough
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#days-to-breakthrough
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
+
+- name: counts
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#counts
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
+
+- name: rates
+  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#rates
+  overseerScript: |
+    page.manualWait();
+    await page.waitForDelay(10000);
+    page.done();
+  renderSettings:
+    clipRectangle:
+      height: 1400
+      width: 1400
