@@ -1,0 +1,5 @@
+state: MO
+
+links:
+- name: primary
+  url: https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/data/public-health/health-metrics/breakthrough-cases.php
