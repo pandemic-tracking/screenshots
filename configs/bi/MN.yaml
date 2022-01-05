@@ -6,9 +6,9 @@ links:
 
 - name: counts
   url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcounts.xlsx
-  file: xls
+  file: xlsx
 
 - name: rates
   url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcirates.xlsx
-  file: xls
+  file: xlsx
   
