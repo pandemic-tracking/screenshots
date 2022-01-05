@@ -3,3 +3,12 @@ state: MN
 links:
 - name: primary
   url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbt.html
+
+- name: counts
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcounts.xlsx
+  file: xlsx
+
+- name: rates
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcirates.xlsx
+  file: xlsx
+  
