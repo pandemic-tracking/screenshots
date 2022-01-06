@@ -5,3 +5,15 @@ links:
   url: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/CriticalIndicatorReport.pdf
   file: pdf
   message: downloading pdf
+
+- name: dashboard-case-rate-vaccine-status
+  url: https://data.tn.gov/t/Public/views/Website_COVID-19RatesbyVaccinationStatus/CaseRatebyVaccinationStatus?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3Asize=1048%2C1&%3Aembed=y&%3Ajsdebug=y&%3Atoolbar=n&%3AapiID=host0
+  message: TN dashboard case rate by vaccination status
+
+- name: dashboard-hosp-rate-vaccine-status
+  url: https://data.tn.gov/t/Public/views/Website_COVID-19RatesbyVaccinationStatus/HospRatebyVaccinationStatus?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3Asize=1048%2C1&%3Aembed=y&%3Ajsdebug=y&%3Atoolbar=n&%3AapiID=host0
+  message: TN dashboard hospitalization rate by vaccination status
+
+- name: dashboard-death-rate-vaccine-status
+  url: https://data.tn.gov/t/Public/views/Website_COVID-19RatesbyVaccinationStatus/DeathRatebyVaccinationStatus?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3Asize=1048%2C1&%3Aembed=y&%3Ajsdebug=y&%3Atoolbar=n&%3AapiID=host0
+  message: TN dashboard death rate by vaccination status
