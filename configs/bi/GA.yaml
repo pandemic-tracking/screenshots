@@ -2,7 +2,8 @@ state: GA
 
 links:
 - name: primary
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
@@ -13,7 +14,8 @@ links:
       width: 1400
 
 - name: summary
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#summary
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html#summary")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
@@ -24,7 +26,8 @@ links:
       width: 1400
 
 - name: demographics
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#demographics
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html#demographics")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
@@ -35,7 +38,8 @@ links:
       width: 1400
 
 - name: days-to-breakthrough
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#days-to-breakthrough
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html#days-to-breakthrough")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
@@ -46,7 +50,8 @@ links:
       width: 1400
 
 - name: counts
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#counts
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html#counts")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
@@ -57,7 +62,8 @@ links:
       width: 1400
 
 - name: rates
-  url: https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_211123.html#rates
+  eval: True
+  url: (date.today() - timedelta(days=date.today().weekday() - 2)).strftime("https://breakthroughreports.s3.amazonaws.com/Breakthrough+Report_%y%m%d.html#rates")
   overseerScript: |
     page.manualWait();
     await page.waitForDelay(10000);
