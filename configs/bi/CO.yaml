@@ -17,3 +17,7 @@ links:
 
 - name: vaccine_breakthrough
   url: https://covid19.colorado.gov/vaccine-breakthrough
+
+- name: bi_data_csv
+  url: https://drive.google.com/u/0/uc?id=157b1kgFkviBHEp9eR9zCmFhmnWM-0pxr&export=download
+  file: csv
