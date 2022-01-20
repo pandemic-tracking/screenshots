@@ -37,3 +37,7 @@ links:
     page.click("span[ctpclickhere2]");
     await page.waitForDelay(20000);
     page.done();
+
+- name: bi-csv
+  url: https://data.virginia.gov/resource/vsrk-d6hx.csv
+  file: csv
