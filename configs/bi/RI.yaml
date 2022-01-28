@@ -16,10 +16,10 @@ links:
   file: csv
   message: Case Rates by Vaccine Status tab
   
-  name: cases-time-series
+- name: cases-time-series
   url: https://datastudio.google.com/embed/u/0/reporting/f8b635fb-44e3-4e34-905c-451921e789ea/page/M6wZC
   message: Case Rates by Vaccine Status Google Studio
   
-  name: hospitalizations-time-series
+- name: hospitalizations-time-series
   url: https://datastudio.google.com/embed/u/0/reporting/cc1bb318-a411-4fc8-9f9f-ea292e6d1927/page/ifDiC
   message: Hospitalization Rates by Vaccine Status Google Studio
