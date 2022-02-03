@@ -1,0 +1,6 @@
+state: WA
+
+links:
+- name: primary
+  url: https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/421-024-ReportedReinfections.pdf
+  file: pdf
