@@ -1,0 +1,18 @@
+state: US
+
+links:
+- name: cdc_data_export
+  url: https://data.cdc.gov/api/views/2ew6-ywp6/rows.csv?accessType=DOWNLOAD
+  file: csv
+
+- name: hhs_nwss_cdt_latest
+  url: https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=hhs_nwss_cdt_latest
+  file: json
+
+- name: hhs_nwss_cdt_summary_ptc
+  url: https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=hhs_nwss_cdt_summary_ptc
+  file: json
+
+- name:  hhs_nwss_cdt_summary_detection
+  url: https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=hhs_nwss_cdt_summary_detection
+  file: json

@@ -46,6 +46,8 @@ def config_dir_from_args(args):
         subdir = 'bi'
     elif args.reinfections_urls:
         subdir = 'reinfections'
+    elif args.waste_urls:
+        subdir = 'waste'
 
     return os.path.join(os.path.dirname(__file__), 'configs', subdir)
 
@@ -56,7 +58,7 @@ def slack_notifier_from_args(args):
     return None
 
 
-# Return a small string describing which run this is: core, CRDT, LTC.
+# Return a small string describing which run this is.
 def run_type_from_args(args):
     if args.core_urls:
         return 'core'
@@ -72,21 +74,9 @@ def run_type_from_args(args):
         return 'bi'
     elif args.reinfections_urls:
         return 'reinfections'
+    elif args.waste_urls:
+        return 'waste'
     raise ValueError('no run type specified in args: %s' % args)
-
-
-# This is a special-case function: we're screenshotting IHS data separately for now
-def screenshot_IHS(args):
-    s3 = S3Backup(bucket_name=args.s3_bucket, s3_subfolder='IHS')
-    config_dir = config_dir_from_args(args)
-    screenshotter = Screenshotter(
-        local_dir=args.temp_dir, s3_backup=s3,
-        phantomjscloud_key=args.phantomjscloud_key,
-        dry_run=args.dry_run, config_dir=config_dir)
-    try:
-        screenshotter.screenshot('IHS', 'primary', backup_to_s3=args.push_to_s3)
-    except ValueError as e:
-        logger.error('IHS screenshot failed: %s' % e)
 
 
 def main(args_list=None):
@@ -129,10 +119,6 @@ def main(args_list=None):
 
     else:
         logger.info("All attempted states successfully screenshotted")
-
-    # special-case: screenshot IHS data once a day, so attach it to the LTC run
-    if run_type == 'LTC':
-        screenshot_IHS(args)
 
 
 if __name__ == "__main__":
