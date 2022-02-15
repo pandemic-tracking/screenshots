@@ -1,0 +1,5 @@
+state: IA
+
+links:
+- name: primary
+  url: https://coronavirus.iowa.gov

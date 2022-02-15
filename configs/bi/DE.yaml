@@ -15,3 +15,6 @@ links:
     await page.render.screenshot();
     page.done();
   message: click on the first weekly update link
+
+- name: dashboard
+  url: https://myhealthycommunity.dhss.delaware.gov/locations/state
