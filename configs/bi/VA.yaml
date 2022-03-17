@@ -15,7 +15,7 @@ links:
     page.click("span[ctpclickhere]");
     await page.waitForDelay(10000);
     await page.evaluate(() => {
-      document.evaluate("//span[@class='tabMenuItemName' and text()='Hospitalizations']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2");
+      document.evaluate("//span[@class='tabMenuItemName' and text()='Hospital Admissions']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2");
     });
     page.click("span[ctpclickhere2]");
     await page.waitForDelay(20000);
