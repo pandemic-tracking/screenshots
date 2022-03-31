@@ -1,0 +1,5 @@
+state: NJ
+
+links:
+- name: primary
+  url: https://dashboards.doh.nj.gov/views/DailyConfirmedCaseSummary7_22_2020/CasesByVaccinationStatus
