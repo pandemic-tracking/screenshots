@@ -18,7 +18,7 @@ _ALL_STATES = [
     'AK', 'AL', 'AR', 'AS', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'GU', 'HI', 'IA', 'ID',
     'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MP', 'MS', 'MT', 'NC', 'ND',
     'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX',
-    'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WORLD', 'WV', 'WY', 'US']
+    'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WORLD', 'WV', 'WY', 'US', 'GL']
 
 
 def states_from_args(args):
@@ -48,6 +48,8 @@ def config_dir_from_args(args):
         subdir = 'reinfections'
     elif args.waste_urls:
         subdir = 'waste'
+    elif args.globalvax_urls:
+        subdir = 'globalvax'
 
     return os.path.join(os.path.dirname(__file__), 'configs', subdir)
 
@@ -76,6 +78,8 @@ def run_type_from_args(args):
         return 'reinfections'
     elif args.waste_urls:
         return 'waste'
+    elif args.globalvax_urls:
+        return 'globalvax'
     raise ValueError('no run type specified in args: %s' % args)
 
 
