@@ -66,6 +66,9 @@ group.add_argument('--screenshot-reinfections-urls', dest='reinfections_urls', a
 group.add_argument('--screenshot-waste-urls', dest='waste_urls', action='store_true',
     default=False, help='Screenshot wastewater surveillance data URLs')
 
+group.add_argument('--screenshot-globalvax-urls', dest='globalvax_urls', action='store_true',
+    default=False, help='Screenshot global vaccine data URLs')
+
 # Allows the user to specify a primary, secondary, etc. screenshot to take
 # If this argument is not present, all screenshots will be taken
 parser.add_argument('--which-screenshot', default='',
