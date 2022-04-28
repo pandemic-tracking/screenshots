@@ -1,0 +1,18 @@
+state: GL
+
+links:
+- name: variables
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=725287469
+  file: csv
+
+- name: supply_tracker
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=140387099
+  file: csv
+
+- name: bilateral_deal
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=696884944
+  file: json
+
+- name:  donation_delivered
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=366559534
+  file: csv
