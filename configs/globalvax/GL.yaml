@@ -11,7 +11,7 @@ links:
 
 - name: bilateral_deal
   url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1357009440
-  file: json
+  file: csv
 
 - name:  donation_delivered
   url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1286755422
