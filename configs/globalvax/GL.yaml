@@ -2,17 +2,17 @@ state: GL
 
 links:
 - name: variables
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=725287469
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=584822010
   file: csv
 
 - name: supply_tracker
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=140387099
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1962397737
   file: csv
 
 - name: bilateral_deal
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=696884944
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1357009440
   file: json
 
 - name:  donation_delivered
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=366559534
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1286755422
   file: csv
