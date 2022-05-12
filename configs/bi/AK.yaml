@@ -7,7 +7,7 @@ links:
     page.manualWait();
     await page.waitForDelay(10000);
     await await page.evaluate(() => {
-      document.evaluate("//a[contains(text(),'weekly update')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere");
+      document.evaluate("//a[contains(text(),'weekly report')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere");
     });
     page.click("a[ctpclickhere]");
     await page.waitForNavigation({
