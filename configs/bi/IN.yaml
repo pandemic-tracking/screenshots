@@ -5,7 +5,7 @@ links:
   url: https://www.coronavirus.in.gov/vaccine/2680.htm
 
 - name: secondary
-  url: https://datavizpublic.in.gov/views/Dashboard/Breakthrough?:isGuestRedirectFromVizportal=y&:embed=y
+  url: https://datavizpublic.in.gov/views/GEN_COVID_19_Vaccine/Breakthrough?%3Aembed=y
   renderSettings:
     viewport:
       height: 3000
