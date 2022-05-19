@@ -1,0 +1,7 @@
+state: ME
+
+links:
+- name: primary
+  url: https://extanalytics.maine.gov/t/CDCExternal/views/COVID_Vax_Impact_on_Cases_Deaths_Hospitalizations/COVID_Vax_Impact_in_Maine?:embed_code_version=3&:embed=y&:loadOrderID=9&:display_spinner=no&:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link
+
+
