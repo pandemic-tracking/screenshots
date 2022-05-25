@@ -5,5 +5,5 @@ links:
   url: https://www.health.pa.gov/topics/disease/coronavirus/Pages/Post-Vaccination-Data.aspx
   renderSettings:
     viewport:
-      height: 6000
+      height: 10000
       width: 1400
