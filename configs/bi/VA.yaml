@@ -1,8 +1,6 @@
 state: VA
 
 links: 
-- name: primary
-  url: https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-in-virginia/covid-19-cases-by-vaccination-status/
 
 - name: hospitalizations
   url: https://public.tableau.com/app/profile/vdh.population.health/viz/PublicVaccineBreakthrough/COVID-19CasesbyVaccinationStatus
