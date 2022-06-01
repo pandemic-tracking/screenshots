@@ -4,11 +4,18 @@ links:
 - name: primary
   url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbt.html
 
-- name: counts
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcounts.xlsx
+- name: adult_rates
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultaarates.xlsx
   file: xlsx
 
-- name: rates
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtcirates.xlsx
+- name: adult_rates_age_group
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultcirates.xlsx
   file: xlsx
-  
+
+- name: ped_rates
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedsaarates.xlsx
+  file: xlsx
+
+- name: ped_rates_age_group
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedscirates.xlsx
+  file: xlsx
