@@ -1,41 +1,6 @@
 state: VA
 
 links: 
-
-- name: hospitalizations
-  url: https://public.tableau.com/app/profile/vdh.population.health/viz/PublicVaccineBreakthrough/COVID-19CasesbyVaccinationStatus
-  overseerScript: |
-    page.manualWait();
-    await page.waitForDelay(20000);
-    await page.evaluate(() => {
-      document.evaluate("//span[@class='tabComboBoxName' and text()='Infections']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere");
-    });
-    page.click("span[ctpclickhere]");
-    await page.waitForDelay(10000);
-    await page.evaluate(() => {
-      document.evaluate("//span[@class='tabMenuItemName' and text()='Hospital Admissions']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2");
-    });
-    page.click("span[ctpclickhere2]");
-    await page.waitForDelay(20000);
-    page.done();
-
-- name: deaths
-  url: https://public.tableau.com/app/profile/vdh.population.health/viz/PublicVaccineBreakthrough/COVID-19CasesbyVaccinationStatus
-  overseerScript: |
-    page.manualWait();
-    await page.waitForDelay(20000);
-    await page.evaluate(() => {
-      document.evaluate("//span[@class='tabComboBoxName' and text()='Infections']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere");
-    });
-    page.click("span[ctpclickhere]");
-    await page.waitForDelay(10000);
-    await page.evaluate(() => {
-      document.evaluate("//span[@class='tabMenuItemName' and text()='Deaths']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2");
-    });
-    page.click("span[ctpclickhere2]");
-    await page.waitForDelay(20000);
-    page.done();
-
 - name: bi-csv
   url: https://data.virginia.gov/resource/vsrk-d6hx.csv
   file: csv
