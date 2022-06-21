@@ -18,3 +18,8 @@ links:
 - name: cases_or_deaths_by_age_and_vax_status_booster
   url: https://data.cdc.gov/api/views/d6p8-wqjm/rows.csv?accessType=DOWNLOAD
   file: csv
+
+- name: cases_or_deaths_by_age_and_vax_status_second_booster
+  url: https://data.cdc.gov/api/views/ukww-au2k/rows.csv?accessType=DOWNLOAD
+  file: csv
+
