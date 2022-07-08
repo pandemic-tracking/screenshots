@@ -5,17 +5,17 @@ links:
   url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbt.html
 
 - name: adult_rates
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultaarates.xlsx
-  file: xlsx
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultaarates.csv
+  file: csv
 
 - name: adult_rates_age_group
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultcirates.xlsx
-  file: xlsx
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtadultcirates.csv
+  file: csv
 
 - name: ped_rates
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedsaarates.xlsx
-  file: xlsx
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedsaarates.csv
+  file: csv
 
 - name: ped_rates_age_group
-  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedscirates.xlsx
-  file: xlsx
+  url: https://www.health.state.mn.us/diseases/coronavirus/stats/vbtpedscirates.csv
+  file: csv
