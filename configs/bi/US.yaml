@@ -6,10 +6,11 @@ links:
 
 - name: cases_by_vax_status
   url: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status
-  overseerScript: |
-    page.manualWait();
-    await page.waitForDelay(15000);
-    page.done();
+  renderSettings:
+    clipRectangle:
+      top: 0
+      height: 4400
+      width: 1400
   
 - name: cases_or_deaths_by_age_and_vax_status
   url: https://data.cdc.gov/api/views/3rge-nu2a/rows.csv?accessType=DOWNLOAD
