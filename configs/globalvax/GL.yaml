@@ -16,3 +16,8 @@ links:
 - name:  donation_delivered
   url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=371893788
   file: csv
+  
+- name:  who_vaccination_data
+  url: https://covid19.who.int/who-data/vaccination-data.csv
+  file: csv  
+  
