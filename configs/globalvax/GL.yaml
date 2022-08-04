@@ -2,19 +2,19 @@ state: GL
 
 links:
 - name: variables
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1431176028
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=277902283
   file: csv
 
 - name: supply_tracker
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1713053600
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=2099763881
   file: csv
 
 - name: bilateral_deal
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=811609062
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=655250496
   file: csv
 
 - name:  donation_delivered
-  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=371893788
+  url: https://docs.google.com/spreadsheets/d/1aR4L0VStsBrY37aRKTjlUwjQuPS3hDwdRyTwGInkRyE/export?format=csv&gid=1067581414
   file: csv
   
 - name:  who_vaccination_data
