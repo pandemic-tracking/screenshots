@@ -1,5 +1,5 @@
 state: IL
 
 links:
-- name: primary
-  url: https://dph.illinois.gov/covid19/vaccine/vaccine-breakthrough.html
+- name: hospital-risk
+  url: https://dph.illinois.gov/covid19/data/hospitalrisk.html
