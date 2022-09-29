@@ -11,7 +11,7 @@ from loguru import logger
 import pandas as pd
 from datetime import datetime
 
-from utils import S3Backup, SlackNotifier
+from utils import S3Backup
 
 
 parser = ArgumentParser(
