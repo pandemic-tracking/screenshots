@@ -11,12 +11,4 @@ links:
   file: csv
   message: Monthly Breakthrough Data tab
 
-- name: cases-by-vaccine-status
-  url: https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/export?format=csv&gid=345208626
-  file: csv
-  message: Case Rates by Vaccine Status tab
 
-- name: hospitalizations-by-vaccine-status
-  url: https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/export?format=csv&gid=500501629
-  file: csv
-  message: Hospitalization Rates by Vaccine Status tab
