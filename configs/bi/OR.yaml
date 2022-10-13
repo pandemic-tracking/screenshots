@@ -2,5 +2,5 @@ state: OR
 
 links:
 - name: primary
-  url: https://www.oregon.gov/oha/covid19/Documents/DataReports/Breakthrough-Case-Report.pdf
-  file: pdf
+  url: https://public.tableau.com/app/profile/oregon.health.authority.covid.19/viz/OregonCOVID-19CasesbyVaccinationStatus/Statewide
+
