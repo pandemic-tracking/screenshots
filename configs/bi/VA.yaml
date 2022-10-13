@@ -1,6 +1,0 @@
-state: VA
-
-links: 
-- name: bi-csv
-  url: https://data.virginia.gov/resource/vsrk-d6hx.csv
-  file: csv
