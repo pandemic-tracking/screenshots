@@ -1,8 +1,6 @@
 state: CO
 
 links:
-- name: vaccine_breakthrough
-  url: https://covid19.colorado.gov/vaccine-breakthrough
 
 - name: bi_data_csv
   url: https://drive.google.com/uc?export=download&id=1Nj3IW3WOL_dgsRmL-sWLTL-R2r_Iwu7_
