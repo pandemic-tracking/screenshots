@@ -1,7 +1,6 @@
 state: CO
 
 links:
-
 - name: bi_data_csv
   url: https://drive.google.com/uc?export=download&id=1Nj3IW3WOL_dgsRmL-sWLTL-R2r_Iwu7_
   file: csv
