@@ -1,14 +1,6 @@
 state: AK
 
 links:
-- name: primary
-  url: https://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/covidandflu.aspx
-  overseerScript: |
-    page.manualWait();
-    await page.waitForDelay(40000);
-    page.done();
-  message: wait for AK dash to avoid blank screenshots
-
-- name: secondary
+- name: monthly
   url: https://dhss.alaska.gov/dph/epi/id/siteassets/pages/HumanCoV/COVID_monthly_update.pdf
   file: pdf
