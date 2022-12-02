@@ -1,6 +1,0 @@
-state: AK
-
-links:
-- name: monthly
-  url: https://dhss.alaska.gov/dph/epi/id/siteassets/pages/HumanCoV/COVID_monthly_update.pdf
-  file: pdf
