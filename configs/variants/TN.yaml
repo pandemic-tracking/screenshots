@@ -1,7 +1,0 @@
-state: TN
-
-links:
-- name: primary
-  url: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/CriticalIndicatorReport.pdf
-  file: pdf
-  message: downloading pdf
